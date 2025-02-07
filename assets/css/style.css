@@ -190,7 +190,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('./assets/img/img1.jpg') no-repeat top center / cover;
+    background: url('../assets/img/img1.jpg') no-repeat top center / cover;
 }
 
 #slider .text-content {
