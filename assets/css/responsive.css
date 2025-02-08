@@ -1,5 +1,5 @@
 /* Tablets and Mobiles */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .btn {
         padding: 16px 17px;
     }
@@ -10,6 +10,7 @@
 
     .contact-form .form-control {
         padding: 15px;
+        font-size: 16px;
     }
 
     #footer .social-list a {
@@ -25,7 +26,7 @@
 }
 
 /* Mobiles */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .s-full-width {
         width: 100% !important;
         padding-top: 10px;
@@ -69,6 +70,10 @@
         padding: 5px 40px;
     }
 
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
     #nav > li:first-child {
         display: inline-block;
     }
@@ -93,7 +98,7 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     #header .mobile-menu-btn {
         display: none;
     }
@@ -104,7 +109,7 @@
 }
 
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     #header .mobile-menu-btn {
         display: none;
     }
